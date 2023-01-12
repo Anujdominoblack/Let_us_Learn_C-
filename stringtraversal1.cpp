@@ -9,6 +9,7 @@ int main()
     {
         cout<<s[i];  //result is output 
     }
+    cout<<s.substr(1,4)<<endl;
     return 0;
 
 }
