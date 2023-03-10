@@ -6,6 +6,6 @@ int main()
     auto lembda=[=](int a) mutable{x=x+a;
                            y=y+a;};
     lembda(20);
-    cout<<x<" "<<y;
+    cout<<x<<" "<<y;
     return 0;
 }

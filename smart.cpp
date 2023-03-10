@@ -19,7 +19,7 @@ class SP{
 int main()
 {
     SP <int> sp(new int());
-    sp=20;
-    cout<<sp;
+    *sp=20;
+    cout<<*sp;
     return 0;
 }
