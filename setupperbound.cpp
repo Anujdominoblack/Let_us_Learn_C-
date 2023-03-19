@@ -2,7 +2,7 @@
 #include<algorithm>
 #include<set>
 using namespace std;
-int main()
+/*int main()
 {
     set<int> s;  //set container is declared
     s.insert(10);
@@ -18,4 +18,4 @@ int main()
         cout<<"given element is greater then the largest"<<endl;
     }
     return 0;
-}
+}/**/
